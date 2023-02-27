@@ -19,9 +19,9 @@ $Graph = new modGraph();
 $photo = $Graph->getPhoto();
 $profile = $Graph->getProfile();
 
-// echo '<h1>Hello there, ' . $profile->displayName . ' (' . $Auth->userName . ')</h1>';
-// echo '<h2><a href="/?action=logout">Log out</a></h2>';
-// echo 'Your roles in this app are:<ul>';
+echo '<h1>Hello there, ' . $profile->displayName . ' (' . $Auth->userName . ')</h1>';
+echo '<h2><a href="/?action=logout">Log out</a></h2>';
+//echo 'Your roles in this app are:<ul>';
 // foreach ($Auth->userRoles as $role) {
 //     echo '<li>' . $role . '</li>';
 // }
