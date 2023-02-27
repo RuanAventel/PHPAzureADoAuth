@@ -11,9 +11,9 @@
 
 
 // Load the auth module, this will redirect us to login if we aren't already logged in.
-include '../inc/auth.php';
+include '/inc/auth.php';
 $Auth = new modAuth();
-include '../inc/graph.php';
+include '/inc/graph.php';
 $Graph = new modGraph();
 //Display the username, logout link and a list of attributes returned by Azure AD.
 $photo = $Graph->getPhoto();

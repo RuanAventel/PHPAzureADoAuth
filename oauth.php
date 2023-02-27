@@ -8,8 +8,8 @@
  * https://twitter.com/coaster_katy
  *
  */
-require_once '../inc/mysql.php';
-require_once '../inc/oauth.php';
+require_once '/inc/mysql.php';
+require_once '/inc/oauth.php';
 
 
 session_start();
