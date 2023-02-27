@@ -12,9 +12,13 @@
 echo "hello";
 // Load the auth module, this will redirect us to login if we aren't already logged in.
 include '/inc/auth.php';
+echo " 2 ";
 $Auth = new modAuth();
+echo " 3 ";
 include '/inc/graph.php';
+echo " 4 ";
 $Graph = new modGraph();
+echo " 5 ";
 //Display the username, logout link and a list of attributes returned by Azure AD.
 $photo = $Graph->getPhoto();
 $profile = $Graph->getProfile();
